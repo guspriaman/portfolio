@@ -128,17 +128,17 @@ h6 {
 
 @media (min-width: 1200px) {
   .logo {
-    width: 280px;
+    width: 180px;
   }
 }
 
 .logo img {
-  max-height: 26px;
+  max-height: 46px;
   margin-right: 6px;
 }
 
 .logo span {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   color: #012970;
   font-family: "Nunito", sans-serif;
