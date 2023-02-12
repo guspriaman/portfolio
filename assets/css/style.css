@@ -176,8 +176,9 @@ section {
   font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 0;
+  margin-top: 10px;
   font-family: "Poppins", sans-serif;
-  color: #635551;
+  color: #398f0e;
 }
 
 .section-title p {
@@ -186,90 +187,34 @@ section {
 
 
 
+
 /*--------------------------------------------------------------
-# Why Us
+# portfolio
 --------------------------------------------------------------*/
 
-
-.why-us {
+.portfolio {
   width: 100%;
-  height: 60vh;
   background: url("../img/bg.jpg") center center;
   background-size: cover;
   position: relative;
-  z-index: 1;
-  padding: 0;
-  margin-bottom:0;
 }
 
-.why-us .content {
+
+.portfolio .content {
   padding: 30px;
   background: #000000;
   border-radius: 50px;
   color: #398f0e;
-  margin-top: 100px;
+  margin-top: 10px;
 }
-
-.why-us .content h3 {
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
-}
-
-.why-us .content p {
-  margin-bottom: 30px;
-}
-
-.why-us .content .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
+.portfolio .judul {
+  padding: 30px;
   border-radius: 50px;
-  transition: all ease-in-out 0.4s;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
-.why-us .content .more-btn i {
-  font-size: 14px;
-}
-
-.why-us .content .more-btn:hover {
-  color: #f9bc60;
-  background: #fff;
-}
-
-.why-us .icon-boxes .icon-box {
-  text-align: center;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 40px 30px;
-  width: 100%;
-}
-
-.why-us .icon-boxes .icon-box i {
-  font-size: 40px;
-  color: #f9bc60;
-  margin-bottom: 30px;
-}
-
-.why-us .icon-boxes .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 30px 0;
-}
-
-.why-us .icon-boxes .icon-box p {
-  font-size: 15px;
-  color: #716f6f;
-}
-
-
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team .member {
+.portfolio .project {
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
@@ -278,12 +223,12 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.079);
 }
 
-.team .member .member-img {
+.portfolio .project .project-img {
   position: relative;
   overflow: hidden;
 }
 
-.team .member .social {
+.portfolio .project .social {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -297,7 +242,7 @@ section {
   justify-content: center;
 }
 
-.team .member .social a {
+.portfolio .project .social a {
   transition: color 0.3s;
   color: #473d3a;
   margin: 0 10px;
@@ -306,76 +251,67 @@ section {
   justify-content: center;
 }
 
-/* .team .member .social a:hover {
+/* .portfolio .project .social a:hover {
   color: #ff5821;
 } */
-.team .member .social .twitter a:hover {
+.portfolio .project .social .twitter a:hover {
   color: #57cbec;
 }
-.team .member .social .facebook a:hover {
+.portfolio .project .social .facebook a:hover {
   color: #121a58;
 }
-.team .member .social .css a:hover {
+.portfolio .project .social .css a:hover {
   color: #121a58;
 }
-.team .member .social .html a:hover {
+.portfolio .project .social .html a:hover {
   color: #121a58;
 }
-.team .member .social .instagram a:hover {
+.portfolio .project .social .instagram a:hover {
   color: #ff2121;
 }
-.team .member .social .linkedin a:hover {
+.portfolio .project .social .linkedin a:hover {
   color: #17b0df;
 }
 
-.team .member .social i {
+.portfolio .project .social i {
   font-size: 18px;
   line-height: 0;
 }
 
-.team .member .member-info {
+.portfolio .project .project-info {
   padding: 25px 15px;
 }
 
-.team .member .member-info h4 {
+.portfolio .project .project-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #398f0e;
 }
 
-.team .member .member-info span {
+.portfolio .project .project-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #398f0e;
 }
 
-.team .member .member-info p {
+.portfolio .project .project-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
   color: #656262;
 }
 
-.team .member:hover .social {
+.portfolio .project:hover .social {
   opacity: 1;
 }
 
-.team .member .member-info .more-btn:hover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #ffffff;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(179, 19, 19, 0.1);
+.portfolio .project button {
+
+
+  background-color: #398f0e; 
+
 }
 
 
