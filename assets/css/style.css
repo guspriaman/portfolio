@@ -119,6 +119,78 @@ h6 {
   max-height: 40px;
 }
 
+#header .social-links a{
+  font-size: 22px;
+  display: inline-block;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#header .social-links .whatsapp{
+  background: #1a6e13;
+  color: #ffffff;
+
+}
+
+#header .social-links .whatsapp:hover  {
+  background: #ffffff;
+  color: #115b1a;
+  text-decoration: none;
+}
+#header .social-links .youtube{
+  background: #bc1818;
+  color: #ffffff;
+
+}
+
+#header .social-links .youtube:hover  {
+  background: #ffffff;
+  color: #bc1818;
+  text-decoration: none;
+}
+
+#header .social-links .instagram{
+  background: #f51d1d;
+  color: #ffffff;
+
+}
+
+#header .social-links .instagram:hover  {
+  background: #ffffff;
+  color: #f51d1d;
+  text-decoration: none;
+}
+
+#header .social-links .github{
+  background: #000000;
+  color: #ffffff;
+
+}
+
+#header .social-links .github:hover  {
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+
+#header .social-links .linkedin{
+  background: #1dc6f5;
+  color: #ffffff;
+
+}
+
+#header .social-links .linkedin:hover  {
+  background: #ffffff;
+  color: #1dc6f5;
+  text-decoration: none;
+}
+
 .scrolled-offset {
   margin-top: 70px;
 }
@@ -214,6 +286,7 @@ section {
   margin-top: 10px;
 }
 
+
 .portfolio .project {
   margin-bottom: 20px;
   overflow: hidden;
@@ -241,6 +314,8 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+
 
 .portfolio .project .social a {
   transition: color 0.3s;
@@ -450,75 +525,4 @@ section {
   padding-top: 5px;
   font-size: 13px;
   color: #ffffff;
-}
-
-#footer .social-links a{
-  font-size: 22px;
-  display: inline-block;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-#footer .social-links .whatsapp{
-  background: #1a6e13;
-  color: #ffffff;
-
-}
-
-#footer .social-links .whatsapp:hover  {
-  background: #ffffff;
-  color: #115b1a;
-  text-decoration: none;
-}
-#footer .social-links .youtube{
-  background: #bc1818;
-  color: #ffffff;
-
-}
-
-#footer .social-links .youtube:hover  {
-  background: #ffffff;
-  color: #bc1818;
-  text-decoration: none;
-}
-
-#footer .social-links .instagram{
-  background: #f51d1d;
-  color: #ffffff;
-
-}
-
-#footer .social-links .instagram:hover  {
-  background: #ffffff;
-  color: #f51d1d;
-  text-decoration: none;
-}
-
-#footer .social-links .github{
-  background: #000000;
-  color: #ffffff;
-
-}
-
-#footer .social-links .github:hover  {
-  background: #ffffff;
-  color: #000000;
-  text-decoration: none;
-}
-
-#footer .social-links .linkedin{
-  background: #1dc6f5;
-  color: #ffffff;
-
-}
-
-#footer .social-links .linkedin:hover  {
-  background: #ffffff;
-  color: #1dc6f5;
-  text-decoration: none;
 }
